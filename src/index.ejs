@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <style>
+  html {
+    height: 100%;
+  }
+
+  body {
+    font-family: Arial;
+    color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: black;
+  }
+
+  #game {
+    margin: auto;
+  }
+
+  #canvas {
+    background: darkslategray;
+  }
+
+  #text {
+    text-align: center;
+  }
+  #score {
+    font-family: "Courier new", monospace;
+    font-size: 18px;
+    text-align: center;
+  }
+  #score::before{
+    content: 'SCORE: ';
+    display: inline-block;
+  }
+  </style>
+</head>
+<body>
+
+  <div id="game">
+    <p id="text">press ENTER to start</p>
+    <canvas id="canvas" width="480" height="480"></canvas>
+    <p id="score">0</p>
+  </div>
+
+</body>
+</html>
