@@ -6,3 +6,12 @@ Unplayable on mobile, sorry :(
 
 - Webpack for building
 - `webpack-dev-server` for autoreload goodness
+
+## Play now
+
+Here: 
+
+## Commands
+
+`npm run stars` - runs webpack dev server, so it'll rebuild your code everytime you change anything and start server at `localhost:8080` with auto-reload
+`npm run build` - runs webpack to actually build the code and place it in /dist folder
