@@ -9,7 +9,9 @@ Unplayable on mobile, sorry :(
 
 ## Play now
 
-Here: 
+Here: https://www.darekgreenly.com/pub/snake-game
+
+use `W`, `S`, `A`, `D` to control the snake. `ENTER` to start/restart the game.
 
 ## Commands
 
