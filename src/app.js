@@ -24,8 +24,8 @@ let playing = false
 let updater = null
 
 const game = {
-  _speedUp: 6,
-  maxSpeedUp: 10,
+  _speedUp: 5.5,
+  maxSpeedUp: 9,
 
   score: 0,
 
